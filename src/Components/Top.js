@@ -11,10 +11,9 @@ const Top = () => {
     // Search Bar
     <div className="h-[60%] ">
       <div
-        className="bg-cover h-full w-full relative"
+        className="bg-cover h-full w-full "
         style={{
           backgroundImage: `url(${require("../Images/coverpage3.jpg")})`,
-          position: 'relative',
           overflow: 'hidden',
           boxShadow: 'inset 0 0 150px 40px rgba(0,0,0,0.8)' // Adjusting the shadow effect
         }}

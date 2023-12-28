@@ -17,49 +17,49 @@ const Navbar = () => {
   return (
     <div>
       <ul className='flex flex-col justify-start items-start space-y-7 pt-10 text-white bg-black h-screen'>
-      <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
-      <IoLogoYoutube className='hover:fill-[#e8317e]' style={{ fontSize: `${iconSize}px` }} />
-      <span>Youtube</span>
+      <li className='flex flex-row px-7  cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Youtube'>
+      <IoLogoYoutube  className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
     </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Home'>
           <IoMdHome  className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Home</span>
+        
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
-          <SiYoutubeshorts  className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Shorts</span>
-        </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+          <SiYoutubeshorts className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }} />
+
+</li>
+
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Subscriptions'>
           <MdSubscriptions  className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Subscriptions</span>
+          
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Your channel'>
           <FaUser className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Your channel</span>
+          
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='History'>
           <MdOutlineHistory className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>History</span>
+        
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Watch later'>
           <MdOutlineWatchLater className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Watch Later</span>
+          
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Liked vedios'>
           <AiOutlineLike className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Liked vedios</span>
+         
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7  cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Settings'>
           <IoSettingsSharp className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Settings</span>
+          
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Help'>
           <MdOutlineHelp className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Help</span>
+         
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row px-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]' title='Send feedback'>
           <RiFeedbackLine className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
-          <span>Send feedback</span>
+          
         </li>
         
       </ul>
