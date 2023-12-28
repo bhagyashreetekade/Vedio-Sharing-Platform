@@ -53,11 +53,11 @@ const Navbar = () => {
           <IoSettingsSharp className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
           <span>Settings</span>
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-8 border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
           <MdOutlineHelp className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
           <span>Help</span>
         </li>
-        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-8 border-transparent hover:border-[#e8317e]'>
+        <li className='flex flex-row pl-7 space-x-7 cursor-pointer border-l-[6px] border-transparent hover:border-[#e8317e]'>
           <RiFeedbackLine className=' hover:fill-[#e8317e] ' style={{ fontSize: `${iconSize}px` }}/>
           <span>Send feedback</span>
         </li>
