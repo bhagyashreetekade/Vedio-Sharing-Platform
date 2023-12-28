@@ -5,12 +5,13 @@ import Top from "./Components/Top";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="grid grid-cols-12 bg-black">
       <div>
-        <Navbar className="fixed" />
+        <Navbar className="col-span-1"/>
       </div>
-      <div>
+      <div className="col-span-11">
         <Top />
+        <Bottom/>
       </div>
     </div>
   );
